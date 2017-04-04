@@ -58,7 +58,7 @@ main {
     width: 100%;
     background-color: rgb(75,100, 200);
     margin: 0;
-    height: calc(100vh - 75px);
+    height: 650px;
     min-height: 500px;
     overflow: none;
 }
@@ -90,4 +90,19 @@ main {
         text-decoration: none;
         font-size: 20px;
         margin-left: 50px;
+    }
+
+section {
+    overflow: none;
+    text-align: center;
+    color: #333;
+    padding: 25px 0;
+}
+    section > h1:first-child {
+        font-size: 35px;
+        margin: 0 auto 25px auto;
+    }
+    section > p {
+        margin: 25px auto;
+        width: 700px;
     }
