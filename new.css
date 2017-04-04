@@ -51,7 +51,10 @@ header {
             }
                 header nav ul a:hover {
                     box-sizing: border-box;
-                    border-bottom: 5px solid blue;
+                    border-bottom: 5px solid rgb(75,100, 200);
+                }
+                header nav ul li:last-child a:hover {
+                    border-bottom-color: #fff;
                 }
 
 main {
