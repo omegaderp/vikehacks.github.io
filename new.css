@@ -6,15 +6,15 @@ body {
 
 header {
     width: 100%;
-    height: 75px;
-    line-height: 75px;
+    height: 50px;
+    line-height: 50px;
     margin: 0;
 }
     header #logo {
         display: inline-block;
         margin: 0;
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 20px;
     }
     header nav {
         display: inline-block;
@@ -25,16 +25,17 @@ header {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            height: 75px;
+            height: 50px;
         }
             header nav ul li {
                 display: inline-block;
                 margin: 0;
                 padding: 0;
                 cursor: pointer;
-                height: 75px;
-                line-height: 75px;
+                height: 50px;
+                line-height: 50px;
                 color: #222;
+                font-size:11px;
             }
             header nav ul li:last-child {
                 background-color: rgb(75,100, 200);
@@ -42,11 +43,11 @@ header {
             }
             header nav ul a {
                 display: inline-block;
-                padding: 0 25px;
+                padding: 0 15px;
                 color: currentColor;
-                height: 75px;
-                line-height: 75px;
-                font-size: 20px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 11px;
                 text-decoration: none;
             }
                 header nav ul a:hover {
